@@ -13,12 +13,10 @@ Note: This project is a simulation created for educational purposes and is not a
 ## Table of Contents
 
 - [Features](#features)
-- [Overview Video](#overview-video)
 - [Technical Stack](#technical-stack)
 - [Acknowledgement](#acknowledgement)
-- [Contributing](#contributing)
 - [License](#license)
-- [Author](#author)
+
 
 ## Features
 
@@ -67,9 +65,6 @@ Note: This project is a simulation created for educational purposes and is not a
 These features collectively provide a comprehensive platform for users to access government services conveniently and securely,
 while administrators can manage various aspects of the system.
 
-## Overview Video
-
-https://github.com/uosyph/GovServicesPortal/assets/107230184/39d960a9-b53f-463e-90d0-c5e55f95f596
 
 ## Technical Stack
 
@@ -96,13 +91,7 @@ This technical stack represents the tools and technologies employed in the devel
 I would like to acknowledge that this project is purely educational and not affiliated with any government organization.
 It serves as a practical learning experience.
 
-## Contributing
 
-You are welcome to contribute to the Government Services Online Portal!
-
-Whether it's fixing a bug, enhancing an existing feature, or suggesting new ideas, your contributions are valuable.
-
-If you need any assistance or have questions, feel free to reach out. I'm here to help!
 
 ## License
 
@@ -110,9 +99,6 @@ This project is licensed under the Apache License Version 2.0 - see the [LICENSE
 
 ## Author
 
-**Yousef Saeed**:
-[GitHub](https://github.com/uosyph)
-[LinkedIn](https://linkedin.com/in/uosyph)
-[X](https://twitter.com/uosyph)
+
 
 <p align="right"><a href="#readme-top">Back to Top</a></p>
