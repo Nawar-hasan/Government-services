@@ -1,0 +1,26 @@
+<!-- request_service.html -->
+<form action="/submit_request" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="service_id" value="{{ service.id }}">
+    <label for="payment_method">Payment Method:</label>
+    <select name="payment_method" id="payment_method">
+        <option value="points">Points</option>
+        <option value="bank_transfer">Bank Transfer</option>
+    </select>
+
+    <div id="bank_transfer_details" style="display: none;">
+        <label for="payment_receipt">Upload Payment Receipt:</label>
+        <input type="file" name="payment_receipt" id="payment_receipt">
+    </div>
+
+    <button type="submit">Submit Request</button>
+</form>
+
+<script>
+    document.getElementById('payment_method').addEventListener('change', function() {
+        if (this.value === 'bank_transfer') {
+            document.getElementById('bank_transfer_details').style.display = 'block';
+        } else {
+            document.getElementById('bank_transfer_details').style.display = 'none';
+        }
+    });
+</script>

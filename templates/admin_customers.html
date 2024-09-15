@@ -1,0 +1,10 @@
+<!-- admin_customers.html -->
+<form action="/admin/customers" method="post">
+    <label for="national_id">Enter National ID:</label>
+    <input type="text" name="national_id" id="national_id" required>
+    <button type="submit">Search</button>
+</form>
+
+{% if error %}
+    <p>{{ error }}</p>
+{% endif %}

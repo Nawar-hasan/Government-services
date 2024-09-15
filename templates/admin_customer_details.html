@@ -1,0 +1,27 @@
+<!-- admin_customer_details.html -->
+<h1>Customer Details</h1>
+<p><strong>ID:</strong> {{ customer.id }}</p>
+<p><strong>Name:</strong> {{ customer.name }}</p>
+<p><strong>Phone:</strong> {{ customer.phone }}</p>
+<p><strong>Email:</strong> {{ customer.email }}</p>
+<p><strong>Address:</strong> {{ customer.address }}</p>
+
+<h2>Orders</h2>
+<table>
+    <tr>
+        <th>Order ID</th>
+        <th>Details</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Status</th>
+    </tr>
+    {% for order in orders %}
+    <tr>
+        <td>{{ order.id }}</td>
+        <td>{{ order.details }}</td>
+        <td>{{ order.start_date }}</td>
+        <td>{{ order.end_date }}</td>
+        <td>{{ 'Completed' if order.is_done else 'Pending' }}</td>
+    </tr>
+    {% endfor %}
+</table>
